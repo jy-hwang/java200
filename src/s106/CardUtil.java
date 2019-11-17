@@ -1,4 +1,4 @@
-package s104;
+package s106;
 
 public class CardUtil {
 

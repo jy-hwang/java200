@@ -1,5 +1,7 @@
 package s103;
 
+
+
 public class CardMain {
 
 	public static void main(String[] args) {
@@ -12,12 +14,17 @@ public class CardMain {
 		Card c3 = new Card();
 		Card c4 = new Card(csuit2 + cvalu2);
 
-		System.out.printf("%s,%s,%s.%s\n", c1, c2, c3, c4);
+		//System.out.printf("%s,%s,%s.%s\n", c1, c2, c3, c4);
 
-		System.out.println(c1.equals(c2));
+		//System.out.println(c1.equals(c2));
 
-		System.out.println(c1.getCardVal().equals(c2.getCardVal()));
-
+		//System.out.println(c1.getCardVal().equals(c2.getCardVal()));
+		/*
+		 * System.out.print(CardUtil.SUIT.length + CardUtil.VALU.length);
+		 * System.out.println("======================");
+		 * System.out.println(Math.random() * CardUtil.SUIT.length);
+		 * System.out.println(Math.random() * CardUtil.VALU.length);
+		 */
 	}
 
 }
